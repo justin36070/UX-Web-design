@@ -2,23 +2,25 @@
 <html>
 	<head>
 		<title>Tabs test</title>
+		<script src="script.js" defer></script>
+		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
 		<ul>
-			<li>Home</li>
-			<li>Portfolio</li>
-			<li>Contact Me</li>
+			<li data-tab-target="#home">Home</li>
+			<li data-tab-target="#portfolio">Portfolio</li>
+			<li data-tab-target="#contact">Contact Me</li>
 		</ul>
-		<div class = data-tab-target>
-			<div id = home>
+		<div class="tab-content">
+			<div id="home" data-tab-content>
 				<h1>Home</h1>
 				<p>This is the home tab page</p>
 			</div>
-			<div id = portfolio>
+			<div id="portfolio" data-tab-content>
 				<h1>Portfolio</h1>
 				<p>This is the portfolio tab page</p>
 			</div>
-			<div id = contact>
+			<div id="contact" data-tab-content>
 				<h1>Contact Me</h1>
 				<p>This is the Contact Me tab page</p>
 			</div>
