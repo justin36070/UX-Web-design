@@ -4,3 +4,13 @@
 .active[data-tab-content] {
 	display: block;
 }
+body ul{
+	justify-self: center;
+}
+body ul li{
+	font-family: sans-serif;
+	display: inline;
+	outline: auto;
+	padding: 4px;
+	cursor: pointer;
+}
